@@ -1,20 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #111;
-    color: white;
+    background: #222;
+    color: #fff;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
-
-.container {
-    margin-top: 20px;
-}
-
-.video-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-h1 {
-    color: #ffcc00;
+.video-container img {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
 }
