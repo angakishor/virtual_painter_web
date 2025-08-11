@@ -2,15 +2,13 @@
 <html>
 <head>
     <title>Virtual Painter</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>🎨 Virtual Painter</h1>
-        <div class="video-container">
-            <img src="{{ url_for('video_feed') }}" width="800">
-        </div>
-        <p>🖌 Raise index finger to draw • 👍 Open thumb to change colors • ✋ Open palm to erase</p>
+    <h1>🎨 Virtual Painter</h1>
+    <div class="video-container">
+        <img src="{{ url_for('video') }}">
     </div>
+    <p>🖌 Raise your thumb to change color • Point index to draw • Open palm to erase</p>
 </body>
 </html>
